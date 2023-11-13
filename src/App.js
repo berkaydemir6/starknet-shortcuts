@@ -1,6 +1,8 @@
 import './App.css';
 import logo from './starknet.png'
 import { useState } from 'react';
+import GithubCorner from 'react-github-corner';
+
 
 function App() {
   const [list, setList] = useState([]);
@@ -29,6 +31,7 @@ function App() {
         <img src={logo} alt="logo" />
       </header>
       <body>
+        
         <div className='flex-container'>
           <div className='box box1' onClick={() => callMenu('swap')}>
             <h2 className='menu'>SWAP</h2>
@@ -53,6 +56,7 @@ function App() {
 
 
         </div>
+        <GithubCorner href="https://github.com/berkaydemir6/starknet-shortcuts" />
       </body>
     </div>
   );
