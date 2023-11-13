@@ -44,7 +44,12 @@
 }
 
 .box3{
-  background-color: #F2ACAB;
+  background-color: #CDFBE9;
+  background-image: url("websites.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: white;
 }
 
 .site{
