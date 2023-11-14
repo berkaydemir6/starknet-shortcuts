@@ -15,7 +15,7 @@ function App() {
       setList(['Flexing.gg', 'Pyramid.market'])
     }
     else if(menu == 'other'){
-      setList(['Starknet.id', 'Activity Tracker'])
+      setList(['Starknet.id', 'Activity Tracker', 'Starkrekt.com'])
     }
     console.log(menu)
   }
